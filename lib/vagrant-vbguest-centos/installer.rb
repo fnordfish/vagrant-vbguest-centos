@@ -46,4 +46,4 @@ module VagrantVbguestCentos
 
   end
 end
-VagrantVbguest::Installer.register(VagrantVbguest::Installers::CentOS, 6)
+VagrantVbguest::Installer.register(VagrantVbguestCentos::Installer, 6)
